@@ -1,2 +1,8 @@
 # huggin_the_block_chain
 ![Dilbert](https://www.researchgate.net/profile/Thomas_Zweifel/publication/318807799/figure/fig4/AS:522392543952896@1501559496401/Dilbert-And-The-Blockchain-in-the-Dilbert-principle-originally-published-in-November.png)
+
+Here I will be exploring the world of blockchain technology by creating a testnet blockchain. I will also give a step by step walkthrough of the process so that YOU TOO can hug the block...chain.
+
+On a more serious note, blockchain technology is a system of recording information in a way that makes it difficult or impossible to change. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. The network of computers are themselves the ledgers or one could say create or hold the ledger. For someone to lose a blockchain, every computer on the network would have to be disconnected from the network. The block is digital information that is built into a chain. Each block has its own specific hash which is code like a signature for example for that data or transaction. That block also includes the hash of the previous block so they are connected in the chain. So to then change that block one would then have to change the chain which brings into play the difficulty that I previously spoke of. The chain is all of the blocks connected together, one on top of each other connected on the public database. 
+
+More information on blockchain can be found here: [Blockchain:Everything You Need to Know](https://www.investopedia.com/terms/b/blockchain.asp)
