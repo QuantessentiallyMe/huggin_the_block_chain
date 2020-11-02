@@ -1,7 +1,7 @@
-#How To: Create
+# How To: Create
 Here I will be trying my best to give a thorough step by step setup of your very own blockchain network using Puppeth, Geth, and MyCrypto. I have also attached videos to help along with pictures in the screenshots folder.
 
-##Pre-Work
+## Pre-Work
 Be sure to have everything installed...
 ***1. Installing MyCrypto:***
   - MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain. You will find MyCrypto Desktop App here: [MyCrypto](https://download.mycrypto.com/).
@@ -11,7 +11,7 @@ Be sure to have everything installed...
     - Navigate to the download page here: [Go Ethereum](https://geth.ethereum.org/downloads/). You want the most recent "Geth & Tools" and if you are using Windows you should choose between 32 and 64 bit depending on what you are running. To figure out which you are running check this out: [Which Windows?](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808).
     - After downloading everything you will find a file named "geth-all-tools....", decompress this archive in a location of your preference and rename it as something memorable. I call my folder "Blockchain-Tools". I believe it is pretty straightforward to know what is going on in there. Put it in a location that is easily accessible through the terminal. This instructional will basically be completely done in the terminal. At this point you have completed the instillation process and may proceed.
 
-##The Good Stuff
+## The Good Stuff
 Now that you are sure you have everything installed here I will try my best to give a through step by step setup of a PoA (Proof of Authority) consensus blockchain network.
 
 1. PoA requires pre-approval so it its typical the algorithm used for private blockchain networks. Because of this, we will have to generate our nodes first. These nodes we will then make the "sealers" which will mean they authorize/approve transactions (they seal blocks). To create these nodes we will head over to our "Blockchain-Tools" folder via the terminal and run:
@@ -100,7 +100,7 @@ I hope I was able to clearly express where to put the data you have been saving 
 
 I will personally say that while this is a very simple step by step process many hiccups can occur and be very frustrating, it took me a couple of times to get everything running myself, so I am hoping to get everything conveyed as clearly as possible.
 
-###Testing
+### Testing
 Now that we have the actual blockchain running using our Go Ethereum Tools, we will test our work using MyCrypto. Hopefully you have already opened MyCrypto out of curiosity, but at this point we will be jumping into connecting our blockchain to MyCrypto. ***At this point I actually have some videos located in the screenshots folder. For these next few steps you would watch "connecting_node_to_mycrypto.mov"***
 
 1. Click "Change Network" at the bottom left after opening MyCrypto.
