@@ -28,14 +28,14 @@ x_node2:
 ./geth --datadir x_node2 --unlock 0dC59017d8160A8e035F1763dAfbc214C2f0f3fD --mine --port 30304 --bootnodes enode://15f948d7b9ac65b461f83fb5252495876d8833cecdea5fc149eaffae083422d7aae35c760872e80cade6db2570e0f479266d782f678530b7196a331c72347253@127.0.0.1:30303 --ipcdisable --allow-insecure-unlock
 ```
 If everything is running properly your screen should look like this.
-![node1 start](/screenshots/x_node1_startup.png)
+![node1 start](/Screenshots/x_node1_startup.png)
 Above is an example of starting up x_node1.
 
-![node2 start](/screenshots/x_node2_startup.png)
+![node2 start](/Screenshots/x_node2_startup.png)
 Above is an example of starting up x_node2.
 
 After a while, once they really start going and mining, the two windows side by side should look like this:
-![nodes together](/screenshots/x_node1_and_x_node2_running.png)
+![nodes together](/Screenshots/x_node1_and_x_node2_running.png)
 Notice all of the mining and actually pictures of hammers and chains for example. All computers do not specifically show these images but this helps to notice that things are working properly. ***I also have a video located in the screenshots folder called two_nodes_running.mov where you can see them in action to get an understanding***
 
 ###Testing/ Making Transactions
@@ -44,29 +44,29 @@ At this point we have the actual blockchain running. It is now time to send mone
 ***At this point I actually have some videos located in the screenshots folder. For these next few steps you would watch "connecting_node_to_mycrypto.mov."***
 
 1. Click "Change Network" at the bottom left after opening MyCrypto.
-![select change](/screenshots/change_network_select.png)
+![select change](/Screenshots/change_network_select.png)
 
 2. Scroll all the way down, focusing on the right scroll window of the app and once at the bottom you will find "Add Custom Node". Click on "Add Custom Node".
-![add custom node](/screenshots/add_custom_node.png)
+![add custom node](/Screenshots/add_custom_node.png)
 
 3. Here you will add the custom network information. The Node Name and Network Name will both be called Futurebank. The Network will be assigned to Custom. The currency will be ETH. The Chain ID will be 303030. The URL will be the default URL so it will route to your local network:
 http://127.0.0.1:8545. You will then select "Save & Use Custom Node" (***Again this can all be found in the video***)
-![add custom info](/screenshots/add_custom_network_info.png)
+![add custom info](/Screenshots/add_custom_network_info.png)
 
 
 4. Now the network is connected and can be used. I will now test it by sending money between accounts. This would be the point where you simply open your own wallet. You are done. ***This video can be found in the screenshots folder under "connecting_node_keystore_to_wallet.mov***. Back on the main page we will select "Keystore File" at the bottom middle in the "How would you like to access your wallet?" section. It would also be great if you made your own node, at this point you could follow these steps and add your own personal keystore.
-![select how](/screenshots/how_would_you_like_to_access.png)
+![select how](/Screenshots/how_would_you_like_to_access.png)
 
 5. The next screen will allow you to "Unlock your Keystore File". Here you will need the keystore file for your node, I am using x_node1, and to remember the password you initially created for your node. You will select "SELECT WALLET FILE" and then go to the keystore file. You will select that file and then in the password section type in your node password.
-![select wallet file](/screenshots/select_wallet_file.png)
+![select wallet file](/Screenshots/select_wallet_file.png)
 
 6. Your account wallet should now be open inside of MyCrypto. At this point you can go to the "to address" section, paste the public address for whoever you want and send money. I am inside of the wallet for x_node1 and will be sending test money to x_node2. ***I have a video of all of this and how to check if it sent in the screenshots section under send_money_to_node_2.mov***
-![send address example](/screenshots/sending_money_address_ex.png)
-![confirm transaction](/screenshots/confirm_transaction.png)
+![send address example](/Screenshots/sending_money_address_ex.png)
+![confirm transaction](/Screenshots/confirm_transaction.png)
 After confirming the transaction you can then check the status to see how it went. A green banner will appear at the bottom of your wallet screen where you can click "Check TX Status" it will log you out, but you can follow the transaction to see if it was successful
-![check status](/screenshots/check_status.png)
+![check status](/Screenshots/check_status.png)
 Finally, if everything was successful you should see this.
-![succesful transaction](/screenshots/successful_transaction.png)
+![succesful transaction](/Screenshots/successful_transaction.png)
 DONE!!
 
 
