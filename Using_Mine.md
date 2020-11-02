@@ -1,7 +1,7 @@
-#How To: Use Mine
+# How To: Use Mine
 Here I will be explaining how to start and interact with my PoA Blockchain Network called "Futurebank".
 
-##Pre-Work
+## Pre-Work
 Be sure to have everything installed...
 ***1. Installing MyCrypto:***
   - MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain. You will find MyCrypto Desktop App here: [MyCrypto](https://download.mycrypto.com/).
@@ -11,7 +11,7 @@ Be sure to have everything installed...
     - Navigate to the download page here: [Go Ethereum](https://geth.ethereum.org/downloads/). You want the most recent "Geth & Tools" and if you are using Windows you should choose between 32 and 64 bit depending on what you are running. To figure out which you are running check this out: [Which Windows?](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808).
     - After downloading everything you will find a file named "geth-all-tools....", decompress this archive in a location of your preference and rename it as something memorable. I call my folder "Blockchain-Tools". I believe it is pretty straightforward to know what is going on in there. Put it in a location that is easily accessible through the terminal. This instructional will basically be completely done in the terminal. At this point you have completed the instillation process and may proceed.
 
-##The Good Stuff
+## The Good Stuff
 Now that we have all of the necessary tools, we can get into the blockchain.
 
 1. At this point you should have your own "Blockchain-Tools" folder. Here in the repo there is an x_node1 folder, an x_node2 folder and a futurebank.json file. All of these files and folders need to be located in your "Blockchain-Tools" folder or whatever you decided to call it.
@@ -38,7 +38,7 @@ After a while, once they really start going and mining, the two windows side by 
 ![nodes together](/Screenshots/x_node1_and_x_node2_running.png)
 Notice all of the mining and actually pictures of hammers and chains for example. All computers do not specifically show these images but this helps to notice that things are working properly. ***I also have a video located in the screenshots folder called two_nodes_running.mov where you can see them in action to get an understanding***
 
-###Testing/ Making Transactions
+### Testing/ Making Transactions
 At this point we have the actual blockchain running. It is now time to send money between our peers within our network. I will illustrate here how to connect the custom network to MyCrypto and then send transactions. Here I will be sending between the nodes, but all you would have to do is connect your own personal wallet to the custom network as opposed to when I connect to x_node1 with the keystore in my example and use that wallet in MyCrypto.
 
 ***At this point I actually have some videos located in the screenshots folder. For these next few steps you would watch "connecting_node_to_mycrypto.mov."***
