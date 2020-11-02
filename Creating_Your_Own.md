@@ -3,6 +3,7 @@ Here I will be trying my best to give a thorough step by step setup of your very
 
 ## Pre-Work
 Be sure to have everything installed...
+
 ***1. Installing MyCrypto:***
   - MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain. You will find MyCrypto Desktop App here: [MyCrypto](https://download.mycrypto.com/).
 
@@ -27,16 +28,20 @@ In the above example one can see the code ran with ex_node1 as the name for said
 ./geth account new --datadir node2
 ```
 ![example node2](/Screenshots/ex_node_2_picture.png)
+
 This is an example for "node2". Here again remember, one needs to take note of his/her password, public address, and the secret key file path.
 
-2. We now have two nodes ready to be sealers. We can move forward to developing the network. Now with puppeth, inside of our Go Ethereum Tools folder I call "Blockchain-Tools" (run: ***open puppeth***), we will be creating a genesis block. A genesis block is the first step towards creating your very own blockchain. It is the first block ever mined, forms the foundation of the entire chain, and is the prototype of all other blocks.
-  - After running Puppeth you then name your network. Below one will find a screenshot example using the network name "chrisbank". 
+2. We now have two nodes ready to be sealers. We can move forward to developing the network. Now with puppeth, inside of our Go Ethereum Tools folder I call "Blockchain-Tools" (run: ***open puppeth***), we will be creating a genesis block. A genesis block is the first step towards creating your very own blockchain. It is the first block ever mined, forms the foundation of the entire chain, and is the prototype of all other blocks. After running Puppeth you then name your network. Below one will find a screenshot example using the network name "chrisbank". 
+
 ![name network](/Screenshots/name_network.png)
 
+
 3. Still inside of puppeth and generating our genesis block, we will select option ***2. Configure new genesis*** for the response to, "What would you like to do? (default = stats).
+
 ![choose to create](/Screenshots/choose_to_create.png)
 
 4. We then select the option ***1. Create new genesis from scratch*** for the response to, "What would you like to do? (default = create).
+
 ![create new genesis](/Screenshots/choose_to_create_new_genesis.png)
 
 5. Now you get to decide if you will use the PoW (Proof of Work) algorithm or the PoA (Proof of Authority) algorithm to seal blocks. We will be creating a PoA network so select ***2. Clique - proof-of-authority*** in response to, "What consenus engine to use? (default = clique).
