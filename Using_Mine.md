@@ -3,6 +3,7 @@ Here I will be explaining how to start and interact with my PoA Blockchain Netwo
 
 ## Pre-Work
 Be sure to have everything installed...
+
 ***1. Installing MyCrypto:***
   - MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain. You will find MyCrypto Desktop App here: [MyCrypto](https://download.mycrypto.com/).
 
