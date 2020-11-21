@@ -51,14 +51,17 @@ This is an example for "node2". Here again remember, one needs to take note of h
 6. For "how many seconds should blocks take", I just used the default of 15. You can pass the argument of 15 and click enter.
 
 7. You will now paste the two public addresses for the two nodes we created earlier in step 1. These two nodes will be given authority to seal blocks. (Remember I said to take note.) You will paste the entire public address sans the 0x. (Disregard the discrepencies in these example addresses.)
+
 ![paste sealers](/Screenshots/allow_sealers.png)
 
 8. We will then paste the account public addresses again to be pre-funded. There are no block rewards in PoA, so we need to pre-fund. (I suggest pasting them in the same order as you did in step 7.)
+
 ![fund accounts](/Screenshots/fund_accounts.png)
 
 9. "Should the precompile-addresses (blah blah)...."? For this I suggest saying no.
 
 10. You will now specify your chain/network ID. This is important and needs to be taken note of somewhere. Decide your own chain ID and record it. Here I am using 31313 as an example. 
+
 ![network id](/Screenshots/chain_id.png)
 
 11. You should now be back at the main window asking what you would like to do. Get excited, you are very close to running your own blockchain network. Here you will now select ***2. Manage existing genesis.***
