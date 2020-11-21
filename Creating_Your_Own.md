@@ -21,6 +21,7 @@ Now that you are sure you have everything installed here I will try my best to g
 ./geth account new --datadir node1 
 ```
 ![example node1](/Screenshots/ex_node_1_picture.jpg)
+
 In the above example one can see the code ran with ex_node1 as the name for said "node1". There will be a request for a password, you must remember this because this will be the only password to decrypt the node. You will then receive the Public Address for the node and a path to a secret key file. Keep this information they will be needed later.
 
 ```
